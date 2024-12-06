@@ -1,0 +1,103 @@
+/* support-messages.css */
+
+/* General styles for dark theme */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    color: #ff9800; /* Vibrant orange */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Success and Error Messages */
+.success-message {
+    background-color: #388e3c; /* Vibrant green */
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.error-message {
+    background-color: #d32f2f; /* Vibrant red */
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #212121;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #263238; /* Dark cyan */
+}
+
+thead th {
+    color: #ffffff;
+    padding: 15px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+tbody tr {
+    border-bottom: 1px solid #37474f; /* Subtle gray-blue divider */
+}
+
+tbody tr:last-child {
+    border-bottom: none;
+}
+
+tbody td {
+    color: #b0bec5;
+    padding: 12px 15px;
+}
+
+tbody tr:hover {
+    background-color: #37474f; /* Highlight row on hover */
+    transition: background-color 0.3s ease;
+}
+
+/* No messages found text */
+.container p {
+    color: #b0bec5;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+}
